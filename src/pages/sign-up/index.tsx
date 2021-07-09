@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FiUser, FiMail, FiLock } from "react-icons/fi";
 
 import { InputField } from "src/components/form-components/input-field";
 import styles from "src/styles/pages/sign-up/styles.module.scss";
@@ -21,6 +22,19 @@ export function SignUpPage() {
             name="name"
             type="text"
             placeholder="Name"
+            IconComponent={<FiUser />}
+          />
+          <InputField
+            name="email"
+            type="email"
+            placeholder="Email"
+            IconComponent={<FiMail />}
+          />
+          <InputField
+            name="password"
+            type="text"
+            placeholder="Password"
+            IconComponent={<FiLock />}
           />
         </form>
       </section>
