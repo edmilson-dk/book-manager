@@ -1,11 +1,12 @@
 import { InputFieldPropsType } from "./types";
 
-import "src/styles/components/form-components/input-field/styles.module.scss";
+import styles from "src/styles/components/form-components/input-field/styles.module.scss";
 
-export function InputField({ ...props }: InputFieldPropsType) {
+export function InputField({ IconComponent, ...props }: InputFieldPropsType) {
   return (
-    <div className="input-field">
+    <div className={styles.inputField}>
       <input {...props} />
+      {IconComponent}
     </div>
   )
 }

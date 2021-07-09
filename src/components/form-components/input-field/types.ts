@@ -1,3 +1,5 @@
-import { InputHTMLAttributes } from "react";
+import { InputHTMLAttributes, ReactNode } from "react";
 
-export type InputFieldPropsType = InputHTMLAttributes<HTMLInputElement>;
+export type InputFieldPropsType = InputHTMLAttributes<HTMLInputElement> & {
+  IconComponent: ReactNode;
+}
