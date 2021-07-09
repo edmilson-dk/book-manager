@@ -10,10 +10,12 @@
   --violet_900: #110C2F;
   --viole__800: #251F4D;
   --violet_600: #3E376B;
+  --violet_gray_300: #A7A1C7;
   --blue: #1E9DF9;
   --cyan: #00FFFF;
   --red: #F91E45;
   --yellow: #F9871E;
+  --rouded: 5px;
 }
 
 html,
@@ -26,6 +28,17 @@ button,
 input,
 textarea {
   font-family: 'Poppins', sans-serif;
+}
+
+input,
+button,
+textarea {
+  outline: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 a {
