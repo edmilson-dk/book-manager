@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FiUser, FiMail, FiLock, FiBookOpen } from "react-icons/fi";
+import { ButtonField } from "src/components/form-components/button-field";
 
 import { InputField } from "src/components/form-components/input-field";
 import { TextAreaField } from "src/components/form-components/textarea-field";
@@ -49,6 +50,10 @@ export function SignUpPage() {
               Already have an account?
               <Link href="/login">between here</Link>
             </p>
+            <ButtonField
+              text="Sign up"
+              type="button"
+            />
           </footer>
         </form>
       </section>
