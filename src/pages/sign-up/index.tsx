@@ -1,12 +1,13 @@
 import Image from "next/image";
 
 import { InputField } from "src/components/form-components/input-field";
+import styles from "src/styles/pages/sign-up/styles.module.scss";
 
 export function SignUpPage() {
   return (
-    <main>
-      <section>
-        <div>
+    <main className={styles.signupMain}>
+      <section className={styles.signupContainer}>
+        <div className="logo">
           <Image
             width={130}
             height={130}
