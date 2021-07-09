@@ -39,8 +39,8 @@
       margin-top: 30px;
 
       p {
-        font-size: 1rem;
-        font-weight: 500;
+        font-size: 0.875rem;
+        font-weight: 400;
         text-align: left;
         color: var(--white);
         display: flex;
@@ -50,7 +50,7 @@
       }
 
       p a {
-        font-size: 1rem;
+        font-size: 0.875rem;
         background: -webkit-linear-gradient(32deg, var(--blue) 30%, var(--cyan));
         -webkit-background-clip: text;
         background-clip: text;
