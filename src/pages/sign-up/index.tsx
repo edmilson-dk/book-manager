@@ -1,7 +1,9 @@
 import Image from "next/image";
-import { FiUser, FiMail, FiLock } from "react-icons/fi";
+import Link from "next/link";
+import { FiUser, FiMail, FiLock, FiBookOpen } from "react-icons/fi";
 
 import { InputField } from "src/components/form-components/input-field";
+import { TextAreaField } from "src/components/form-components/textarea-field";
 import styles from "src/styles/pages/sign-up/styles.module.scss";
 
 export function SignUpPage() {
@@ -36,6 +38,18 @@ export function SignUpPage() {
             placeholder="Password"
             IconComponent={<FiLock />}
           />
+          <TextAreaField
+            name="bio"
+            placeholder="Bio"
+            IconComponent={<FiBookOpen />}
+          />
+
+          <footer>
+            <p>
+              Already have an account?
+              <Link href="/login">between here</Link>
+            </p>
+          </footer>
         </form>
       </section>
     </main>
