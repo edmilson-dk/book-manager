@@ -50,7 +50,7 @@ export function DashboardLayout({ children }: DashboardLayoutPropsType) {
           toRoute="/logout"
         />
       </aside>
-      <section>
+      <section className={styles.dashboardLayoutContent}>
         {children}
       </section>
     </main>
