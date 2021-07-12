@@ -1,13 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { FiUser, FiMail, FiLock, FiBookOpen } from "react-icons/fi";
-import { ButtonField } from "src/components/form-components/button-field";
 
+import { ButtonField } from "src/components/form-components/button-field";
 import { InputField } from "src/components/form-components/input-field";
 import { TextAreaField } from "src/components/form-components/textarea-field";
+
 import styles from "src/styles/pages/sign-up/styles.module.scss";
 
-export function SignUpPage() {
+export default function SignUpPage() {
+  const router = useRouter();
+
+  function handleSignUpClick() {
+    router.push("/dashboard");
+  }
+
   return (
     <main className={styles.signupMain}>
       <section className={styles.signupContainer}>
@@ -53,10 +61,11 @@ export function SignUpPage() {
             <ButtonField
               text="Sign up"
               type="button"
+              onClick={handleSignUpClick}
             />
           </footer>
         </form>
       </section>
     </main>
-  )
+  );
 }
