@@ -2,6 +2,8 @@ import { useRouter } from "next/router";
 
 import { DashboardNavigatorBtnPropsType } from "./types";
 
+import styles from "src/styles/components/dashboard-components/dashboard-navigator-btn/styles.module.scss";
+
 export function DashboardNavigatorBtn({ IconComponent, toRoute }: DashboardNavigatorBtnPropsType) {
   const nextRouter = useRouter();
   const pathname = nextRouter.pathname;
@@ -16,7 +18,8 @@ export function DashboardNavigatorBtn({ IconComponent, toRoute }: DashboardNavig
       type="button"
       onClick={handleClick}
       className={`
-        ${`/${formattedRouter}` === pathname ? "routeActive" : ""}
+        ${styles.dashboardNavigatorBtn}
+          ${`/${formattedRouter}` === pathname ? styles.routeActive : ""}
       `}
     >
       {IconComponent}
