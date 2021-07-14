@@ -1,0 +1,22 @@
+.dashboardHomeWrapper {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 20px 180px;
+}
+
+.dashboardHomeContent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.dashboardHomeSidebar {
+  width: 100%;
+  max-width: 420px;
+  margin-left: 120px;
+  background-color: var(--white);
+}
