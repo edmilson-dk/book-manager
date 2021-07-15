@@ -1,6 +1,8 @@
 import Image from "next/image";
+
 import { DashboardLayout } from "src/components/dashboard-components/dashboard-layout";
 import { DashboardSearchInput } from "src/components/dashboard-components/dashboard-search-input";
+import { DashboardSideBarUserProfile } from "src/components/dashboard-components/dashboard-sidebar-user-profile";
 import { TitleComponent } from "src/components/dashboard-components/titles";
 
 import styles from "src/styles/pages/dashboard/styles.module.scss";
@@ -48,7 +50,13 @@ export default function Dashboard() {
 
         </article>
         <aside className={styles.dashboardHomeSidebar}>
-          <h2>Dashboard</h2>
+          <div className={styles.dashboardHomeSidebarBg}>
+            <Image
+              width={340}
+              height={226}
+              src="/images/sidebar-bg.png" alt="Sidebar Logo" />
+          </div>
+          <DashboardSideBarUserProfile />
         </aside>
       </section>
     </DashboardLayout>
