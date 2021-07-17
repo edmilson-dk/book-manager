@@ -4,6 +4,7 @@ import { DashboardLayout } from "src/components/dashboard-components/dashboard-l
 import { DashboardSearchInput } from "src/components/dashboard-components/dashboard-search-input";
 import { DashboardSideBarUserProfile } from "src/components/dashboard-components/dashboard-sidebar-user-profile";
 import { TitleComponent } from "src/components/dashboard-components/titles";
+import { ProgressBarCircle } from "src/components/dashboard-components/progress-bar-circle";
 
 import styles from "src/styles/pages/dashboard/styles.module.scss";
 
@@ -57,6 +58,11 @@ export default function Dashboard() {
               src="/images/sidebar-bg.png" alt="Sidebar Logo" />
           </div>
           <DashboardSideBarUserProfile />
+          <div>
+            <ProgressBarCircle borderColor="#1E9DF9" percent={60} />
+            <ProgressBarCircle borderColor="#F9871E" percent={30} />
+            <ProgressBarCircle borderColor="#F91E45" percent={10} />
+          </div>
         </aside>
       </section>
     </DashboardLayout>
