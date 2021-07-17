@@ -1,7 +1,7 @@
 .progressBarCircle {
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
-  transition: stroke-dashoffset 1s linear;
+  transition: stroke-dashoffset .5s linear;
   stroke-width: 8;
   stroke-linecap: round;
   z-index: 2;
