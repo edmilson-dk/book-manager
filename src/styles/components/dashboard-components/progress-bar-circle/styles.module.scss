@@ -1,0 +1,25 @@
+.progressBarCircle {
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: stroke-dashoffset 1s linear;
+  stroke-width: 8;
+  stroke-linecap: round;
+  z-index: 2;
+}
+
+.progressBarCircleWrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.progressBarCirclePercent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+
+  font-size: 18px;
+  font-weight: bold;
+}
