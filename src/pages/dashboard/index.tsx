@@ -58,11 +58,20 @@ export default function Dashboard() {
               src="/images/sidebar-bg.png" alt="Sidebar Logo" />
           </div>
           <DashboardSideBarUserProfile />
-          <div>
-            <ProgressBarCircle borderColor="#1E9DF9" percent={60} />
-            <ProgressBarCircle borderColor="#F9871E" percent={30} />
-            <ProgressBarCircle borderColor="#F91E45" percent={10} />
-          </div>
+          <section className={styles.dashboardHomeSidebarProgressBar}>
+            <div>
+              <ProgressBarCircle borderColor="#1E9DF9" percent={60} />
+              <h3>Read</h3>
+            </div>
+            <div>
+              <ProgressBarCircle borderColor="#F9871E" percent={30} />
+              <h3>Pending</h3>
+            </div>
+            <div>
+              <ProgressBarCircle borderColor="#F91E45" percent={10} />
+              <h3>Abandoned</h3>
+            </div>
+          </section>
         </aside>
       </section>
     </DashboardLayout>
