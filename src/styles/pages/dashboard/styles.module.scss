@@ -47,3 +47,19 @@
   justify-content: center;
   align-items: center;
 }
+
+.dashboardHomeSidebarProgressBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+  >div h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--violet_600);
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
