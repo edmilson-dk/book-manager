@@ -22,7 +22,7 @@ export function ProgressBarCircle({
   }, [circumference]);
 
   useEffect(() => {
-    setProgress(60);
+    setProgress(percent);
   }, [setProgress]);
 
   return (
