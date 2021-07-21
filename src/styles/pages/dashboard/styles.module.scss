@@ -65,3 +65,26 @@
     text-align: center;
   }
 }
+
+.dashboardHomeReadBooks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0;
+
+  >div {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    width: 100%;
+    padding: 20px 0;
+
+    div {
+      min-width: 112px;
+      flex: 1;
+    }
+  }
+}
