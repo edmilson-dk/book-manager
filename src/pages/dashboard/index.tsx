@@ -72,6 +72,40 @@ export default function Dashboard() {
               <h3>Abandoned</h3>
             </div>
           </section>
+          <article className={styles.dashboardHomeReadBooks}>
+            <TitleComponent text="Read" color="#251F4D" />
+
+            <div>
+              <Image
+                src="/images/recents/regex-book.png"
+                alt="Regex Book"
+                width={112}
+                height={160}
+                objectFit="cover"
+              />
+              <Image
+                src="/images/recents/ref-ebook.png"
+                alt="Regex Book"
+                width={112}
+                height={160}
+                objectFit="cover"
+              />
+              <Image
+                src="/images/recents/ddd-ebook.png"
+                alt="Regex Book"
+                width={112}
+                height={160}
+                objectFit="cover"
+              />
+              <Image
+                src="/images/recents/gof-ebook.png"
+                alt="Regex Book"
+                width={112}
+                height={160}
+                objectFit="cover"
+              />
+            </div>
+          </article>
         </aside>
       </section>
     </DashboardLayout>
