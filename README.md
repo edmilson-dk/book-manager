@@ -1,34 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Book Manager - Website
 
-## Getting Started
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=book-manager&message=Welcome&color=FFFFFF&labelColor=110C2F" alt="PRs welcome!" />
+  <img alt="License" src="https://img.shields.io/static/v1?label=version&message=1.0&color=FFFFFF&labelColor=110C2F">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=FFFFFF&labelColor=110C2F">
+  <img alt="Stars" src="https://img.shields.io/github/stars/edmilson-dk/book-manager?color=FFFFFF&labelColor=110C2F">
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/edmilson-dk/book-manager?color=FFFFFF&labelColor=110C2F">
+</p>
 
-First, run the development server:
+Book manager is a simple nextjs page with reactjs to manage your books.
 
-```bash
-npm run dev
-# or
+## Topics 
+
+* [Layout](#layout)
+* [Demo](#demo)
+* [Features](#features)
+* [Installation](#install)
+* [License](#license)
+
+<a id="layout"></a>
+## ⭐ Layout
+
+__Login__
+
+[Login](https://github.com/edmilson-dk/book-manager/blob/main/.github/assets/login.png)
+
+
+__Dashboard__
+
+[Dashboard](https://github.com/edmilson-dk/book-manager/blob/main/.github/assets/dasshboard.png)
+
+<a id="demo"></a>
+## 🎉 Demo
+
+View the online website on the [Vercel](https://vercel.com/) server
+
+[Book manager](https://book-manager-murex.vercel.app/)
+
+<a id="features"></a>
+## 🚀 Functionalities
+
+> The project does not have any functionality, as it is just a common web site with no actions.
+
+<a id="install"></a>
+## 👷 Installation and use
+
+* 1 First clone the repository for your machine.
+
+```sh
+git clone https://github.com/edmilson-dk/book-manager
+```
+
+* 2 After that, enter the generated folder and install the project dependencies.
+
+> You will need to have [Nodejs](https://nodejs.org/) installed on your machine, and [yarn](https://yarnpkg.com/) if you want to use it to install dependencies.
+
+```sh
+npm install 
+# or with yarn
+yarn install
+```
+* 3 After that start the Reactjs server and it will automatically open the browser for you.
+
+```sh
+npm dev 
+# or with yarn 
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<a id="license"></a>
+## 🤝 License
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+[MIT](https://github.com/edmilson-dk/book-manager/blob/main/LICENSE) Project License
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Creator with 💙 by [Edmilson Jesus](https://www.linkedin.com/in/edmilsonjesus)
