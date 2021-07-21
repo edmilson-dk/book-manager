@@ -23,7 +23,7 @@ export function ProgressBarCircle({
 
   useEffect(() => {
     setProgress(percent);
-  }, [setProgress]);
+  }, [percent, setProgress]);
 
   return (
     <div

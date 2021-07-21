@@ -5,6 +5,7 @@ import { DashboardSearchInput } from "src/components/dashboard-components/dashbo
 import { DashboardSideBarUserProfile } from "src/components/dashboard-components/dashboard-sidebar-user-profile";
 import { TitleComponent } from "src/components/dashboard-components/titles";
 import { ProgressBarCircle } from "src/components/dashboard-components/progress-bar-circle";
+import { DashboardInReadingBook } from "src/components/dashboard-components/dashboard-in-reading-book";
 
 import styles from "src/styles/pages/dashboard/styles.module.scss";
 
@@ -49,6 +50,54 @@ export default function Dashboard() {
             </article>
           </div>
 
+          <section className={styles.dashboardHomeReadingBook}>
+            <TitleComponent text="In reading" />
+
+            <article>
+              <DashboardInReadingBook
+                bookAuthor="Eric Evans"
+                bookTitle="Domain Driven Design"
+                bookImageAlt="DDD Ebook"
+                bookImageSrc="/images/recents/ddd-ebook.png"
+                bookReadPercent={90}
+              />
+              <DashboardInReadingBook
+                bookAuthor="Erich Gamma.."
+                bookTitle="Padrões de projeto"
+                bookImageAlt="Padrões de projeto"
+                bookImageSrc="/images/recents/gof-ebook.png"
+                bookReadPercent={60}
+              />
+              <DashboardInReadingBook
+                bookAuthor="Michael"
+                bookTitle="Expressões Regulares"
+                bookImageAlt="Regex Book"
+                bookImageSrc="/images/recents/regex-book.png"
+                bookReadPercent={50}
+              />
+              <DashboardInReadingBook
+                bookAuthor="Eric Evans"
+                bookTitle="Domain Driven Design"
+                bookImageAlt="DDD Ebook"
+                bookImageSrc="/images/recents/ddd-ebook.png"
+                bookReadPercent={40}
+              />
+              <DashboardInReadingBook
+                bookAuthor="Eric Evans"
+                bookTitle="Domain Driven Design"
+                bookImageAlt="DDD Ebook"
+                bookImageSrc="/images/recents/ddd-ebook.png"
+                bookReadPercent={40}
+              />
+              <DashboardInReadingBook
+                bookAuthor="Eric Evans"
+                bookTitle="Domain Driven Design"
+                bookImageAlt="DDD Ebook"
+                bookImageSrc="/images/recents/ddd-ebook.png"
+                bookReadPercent={40}
+              />
+            </article>
+          </section>
         </article>
         <aside className={styles.dashboardHomeSidebar}>
           <div className={styles.dashboardHomeSidebarBg}>
