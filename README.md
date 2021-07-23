@@ -23,12 +23,12 @@ Book manager is a simple nextjs page with reactjs to manage your books.
 
 __Login__
 
-[Login](https://github.com/edmilson-dk/book-manager/blob/main/.github/assets/login.png)
+![Login](https://github.com/edmilson-dk/book-manager/blob/main/.github/assets/login.png)
 
 
 __Dashboard__
 
-[Dashboard](https://github.com/edmilson-dk/book-manager/blob/main/.github/assets/dasshboard.png)
+![Dashboard](https://github.com/edmilson-dk/book-manager/blob/main/.github/assets/dasshboard.png)
 
 <a id="demo"></a>
 ## 🎉 Demo
